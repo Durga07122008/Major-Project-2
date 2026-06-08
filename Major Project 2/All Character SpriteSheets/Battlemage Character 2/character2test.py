@@ -30,7 +30,7 @@ def load_frames(sheet, total_frames):
 
 animations = {
     'run': load_frames(run_sheet, total_frames=10),
-    'idle': load_frames(idle_sheet, total_frames=8), 
+    'idle': load_frames(idle_sheet, total_frames=8),
     'jump': load_frames(jump_sheet, total_frames=2),
     'fall': load_frames(fall_sheet, total_frames=5)
 }
